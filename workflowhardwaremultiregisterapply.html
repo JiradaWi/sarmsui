@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+  <style>
+  body{
+    padding-top: 50pt;
+    background-color: #CCC6C7;
+  }
+  </style>
+</head>
+
+<body class="" id="">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
+    <a class="navbar-brand" href="index.html">SARMS <3</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!--SOGO-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sogo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="sogo.html">Sogo</a>
+            <a class="dropdown-item" href="#">Sogo top</a>
+            <a class="dropdown-item" href="#">Sogo count</a>
+          </div>
+        </li>
+
+        <!--Daicho-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Daicho
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="daicho.html">Hardware</a>
+            <a class="dropdown-item" href="#">Software</a>
+            <a class="dropdown-item" href="#">License</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">License List</a>
+          </div>
+        </li>
+
+        <!-- History -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            History
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Hardware History</a>
+            <a class="dropdown-item" href="#">Software History</a>
+            <a class="dropdown-item" href="#">License History</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">License List History</a>
+          </div>
+        </li>
+
+        <!-- Workflow -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Workflow
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi modification apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Workflow License multi modification apply</a>
+            <a class="dropdown-item" href="#">Workflow License multi transfer apply</a>
+            <a class="dropdown-item" href="#">Workflow License multi disposal apply</a>
+          </div>
+        </li>
+
+        <!-- Workflow List -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Workflow List
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Workflow All</a>
+            <a class="dropdown-item" href="#">Workflow Create</a>
+            <a class="dropdown-item" href="#">Workflow Request</a>
+          </div>
+        </li>
+
+        <!-- Maintenance -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Maintenance
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">User</a>
+            <a class="dropdown-item" href="#">Sosiki</a>
+          </div>
+        </li>
+
+        <!-- Inventory -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inventory <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- Import -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Import <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- Management Information -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Management Information
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Console</a>
+            <a class="dropdown-item" href="#">Prohibit Software</a>
+            <a class="dropdown-item" href="#">Setting</a>
+            <a class="dropdown-item" href="#">Code Setting</a>
+            <a class="dropdown-item" href="#">Sogo Setting</a>
+            <a class="dropdown-item" href="#">Control</a>
+            <a class="dropdown-item" href="#">Exit</a>
+          </div>
+        </li>
+
+      </ul>
+      Jirada Wiwitumpon &nbsp;
+      <a href="login.html">
+        <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
+      </a>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <form>
+      <div class="card">
+        <br>
+        <h2 class="text-center">Workflow Hardware Multi Register Apply</h2>
+        <br>
+        <div class="container-fluid">
+          <table class="table table-bordered">
+            <tr>
+              <td colspan="2" class="text-center" style="font-weight:bold;background-color:#BFEAFF;">申請基本情報</td>
+            </tr>
+            <tr>
+              <td>申請先</td>
+              <td>申請者 -> 承認却下者</td>
+            </tr>
+            <tr>
+              <td>申請者所属</td>
+              <td>石川県</td>
+            </tr>
+            <tr>
+              <td>申請日<span style="color:red">*</span></td>
+              <td><input type="date" class="form-control"></td>
+            </tr>
+            <tr>
+              <td>申請者<span style="color:red">*</span></td>
+              <td>
+                <input type="text" class="form-control"><br>
+                <button class="btn btn-primary btn-sm">Something</button>
+                Some name with Ni Taro.
+              </td>
+            </tr>
+            <tr>
+              <td>申請者メールアドレス<span style="color:red">*</span></td>
+              <td><input type="email" class="form-control"></td>
+            </tr>
+          </table>
+
+          <table class="table table-bordered">
+            <tr>
+              <td colspan="2" class="text-center" style="font-weight:bold;background-color:#BFEAFF;">申請内容</td>
+            </tr>
+            <tr>
+                <td>所属</td>
+                <td>
+                  <select class="form-control">
+                    <option>Ishikawa</option>
+                    <option>Banana</option>
+                    <option>Guava</option>
+                    <option>Orange</option>
+                    <option>Strawberry</option>
+                    <option>Blueberry</option>
+                    <option>Mango</option>
+                    <option>Durian</option>
+                    <option>Lemon</option>
+                    <option>Lime</option>
+                    <option>Apple</option>
+                    <option>Watermelon</option>
+                    <option>Grape</option>
+                    <option>Papaya</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+              <td>数量</td>
+              <td><input type="number" class="form-control"></td>
+            </tr>
+            <tr>
+              <td>設置場所</td>
+              <td><input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+              <td>ハードウェア種類</td>
+              <td>
+                <input type="radio" name="hard"> &nbsp;事務用一人一台パソコン <br>
+                <input type="radio" name="hard"> &nbsp;教員用一人一台パソコン <br>
+                <div class="form-inline">
+                <input type="radio" name="hard"> &nbsp;<input type="text" class="form-control">&nbsp;システム用サーバ <br>
+              </div>
+                <input type="radio" name="hard"> &nbsp;その他 <br>
+                <textarea class="form-control"></textarea><br>
+                <button class="btn btn-primary btn-sm">Purple Button</button>
+                <p>Im a text.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>一台あたりの調達金額	</td>
+              <td>
+                <div class="form-inline">
+                  <input type="number" class="form-control">&nbsp; yen
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>調達情報</td>
+              <td>
+                <textarea class="form-control"></textarea>
+                <br>
+                <button class="btn btn-primary btn-sm"> Buttom </button>
+                <pre>
+                  購入/リース契約先：　○○株式会社
+                  保守連絡先：　□□株式会社　　担当：△△
+                  保守連絡電話番号：　076-xxx-xxxx
+                  リース期間：　　平成○年○月○日　～　平成○年○月○日
+                  調達金額：　　○○円
+
+                  その他記載事項がある場合は、追加
+                </pre>
+
+              </td>
+            </tr>
+            <tr>
+              <td>調達日	</td>
+              <td>
+                <input type="date" class="form-control"><br>
+                <button class="btn btn-primary btn-sm"> Button </button>
+              </td>
+            </tr>
+          </table>
+
+
+          <div class="mx-auto" style="width: 200px;">
+            <button class="btn btn-success">Submit</button>
+          </div>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </form>
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fa fa-angle-up"></i>
+  </a>
+  <!-- Logout Modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Page level plugin JavaScript-->
+<script src="vendor/chart.js/Chart.min.js"></script>
+<script src="vendor/datatables/jquery.dataTables.js"></script>
+<script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin.min.js"></script>
+<!-- Custom scripts for this page-->
+<script src="js/sb-admin-datatables.min.js"></script>
+<script src="js/sb-admin-charts.min.js"></script>
+</div>
+</body>
+
+</html>
