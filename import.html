@@ -21,10 +21,11 @@
     padding-top: 50pt;
     background-color: #CCC6C7;
   }
+
   </style>
 </head>
 
-<body>
+<body class="" id="">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
     <a class="navbar-brand" href="index.html">SARMS <3</a>
@@ -150,140 +151,82 @@
 
   <div class="container-fluid">
     <form>
-      <div class="card">
-        <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
-          <i class="fa fa-table"></i> Workflow Hardware Multi Register Apply
-        </div>
+    <div class="card">
 
-        <br>
-        <div class="container-fluid">
-          <table class="table table-bordered">
-            <tr>
-              <td colspan="2" class="text-center" style="font-weight:bold;background-color:#BFEAFF;">申請基本情報</td>
-            </tr>
-            <tr>
-              <td>申請先</td>
-              <td>申請者 -> 承認却下者</td>
-            </tr>
-            <tr>
-              <td>申請者所属</td>
-              <td>石川県</td>
-            </tr>
-            <tr>
-              <td>申請日<span style="color:red">*</span></td>
-              <td><input type="date" class="form-control"></td>
-            </tr>
-            <tr>
-              <td>申請者<span style="color:red">*</span></td>
-              <td>
-                <input type="text" class="form-control"><br>
-                <button class="btn btn-primary btn-sm">Something</button>
-                Some name with Ni Taro.
-              </td>
-            </tr>
-            <tr>
-              <td>申請者メールアドレス<span style="color:red">*</span></td>
-              <td><input type="email" class="form-control"></td>
-            </tr>
-          </table>
+      <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
 
-          <table class="table table-bordered">
-            <tr>
-              <td colspan="2" class="text-center" style="font-weight:bold;background-color:#BFEAFF;">申請内容</td>
-            </tr>
-            <tr>
-                <td>所属</td>
-                <td>
-                  <select class="form-control">
-                    <option>Ishikawa</option>
-                    <option>Banana</option>
-                    <option>Guava</option>
-                    <option>Orange</option>
-                    <option>Strawberry</option>
-                    <option>Blueberry</option>
-                    <option>Mango</option>
-                    <option>Durian</option>
-                    <option>Lemon</option>
-                    <option>Lime</option>
-                    <option>Apple</option>
-                    <option>Watermelon</option>
-                    <option>Grape</option>
-                    <option>Papaya</option>
-                  </select>
-                </td>
-            </tr>
-            <tr>
-              <td>数量</td>
-              <td><input type="number" class="form-control"></td>
-            </tr>
-            <tr>
-              <td>設置場所</td>
-              <td><input type="text" class="form-control"></td>
-            </tr>
-            <tr>
-              <td>ハードウェア種類</td>
-              <td>
-                <input type="radio" name="hard"> &nbsp;事務用一人一台パソコン <br>
-                <input type="radio" name="hard"> &nbsp;教員用一人一台パソコン <br>
-                <div class="form-inline">
-                <input type="radio" name="hard"> &nbsp;<input type="text" class="form-control">&nbsp;システム用サーバ <br>
-              </div>
-                <input type="radio" name="hard"> &nbsp;その他 <br>
-                <textarea class="form-control"></textarea><br>
-                <button class="btn btn-primary btn-sm">Purple Button</button>
-                <p>Im a text.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>一台あたりの調達金額	</td>
-              <td>
-                <div class="form-inline">
-                  <input type="number" class="form-control">&nbsp; yen
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>調達情報</td>
-              <td>
-                <textarea class="form-control"></textarea>
-                <br>
-                <button class="btn btn-primary btn-sm"> Buttom </button>
-                <pre>
-                  購入/リース契約先：　○○株式会社
-                  保守連絡先：　□□株式会社　　担当：△△
-                  保守連絡電話番号：　076-xxx-xxxx
-                  リース期間：　　平成○年○月○日　～　平成○年○月○日
-                  調達金額：　　○○円
+        <i class="fa fa-table"></i> Import
+      </div>
+  <br>
+      <div class="container-fluid">
+        <table class="table table-bordered">
+          <tr>
+            <td class="topic">申請日</td>
+            <td>2018/04/03 18:58</td>
+          </tr>
+          <tr>
+            <td  class="topic">申請者</td>
+            <td>
+              <input type="text" class="form-control">
+              <button class="btn btn-primary btn-sm">
+                Button ja
+              </button><br>
+              some text
 
-                  その他記載事項がある場合は、追加
-                </pre>
+            </td>
+          </tr>
+          <tr>
+            <td  class="topic">申請者メールアドレス</td>
+            <td><input type="email" class="form-control"></td>
+          </tr>
+        </table>
 
-              </td>
-            </tr>
-            <tr>
-              <td>調達日	</td>
-              <td>
-                <input type="date" class="form-control"><br>
-                <button class="btn btn-primary btn-sm"> Button </button>
-              </td>
-            </tr>
-          </table>
-
-
-          <div class="mx-auto" style="width: 200px;">
-            <button class="btn btn-success">Submit</button>
-          </div>
+        <table class="table table-bordered">
+          <tr>
+            <td  class="topic">テーブル名</td>
+            <td>
+              <select class="form-control">
+                <option>McBeth</option>
+                <option>Treasure Island</option>
+                <option>The twits</option>
+                <option>Matilda</option>
+                <option>Oliver Twists</option>
+                <option>Tom Sawyer's Adventure</option>
+                <option>Little Princess</option>
+                <option>Little Lord</option>
+                <option>Marry Poppins</option>
+                <option>5 Children and It</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td  class="topic">CSVデータ</td>
+            <td>
+              <input type="file" class="form-control"><br><br>
+              <button class="btn btn-primary btn-sm">button</button><br>
+              Im a tiny text.
+            </td>
+          </tr>
+          <tr>
+            <td  class="topic">インポートオプション(シ)</td>
+            <td><input type="checkbox">&npsp;承認プロセスを経ずにインポートしたデータを反映する</td>
+          </tr>
+        </table>
           <br>
-
+        <div class="mx-auto" style="width: 200px;">
+          <button class="btn btn-success">Submit</button>
         </div>
+        <br>
       </div>
     </div>
   </form>
+  </div>
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fa fa-angle-up"></i>
   </a>
   <!-- Logout Modal-->
 
+</div>
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
