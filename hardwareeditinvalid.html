@@ -16,6 +16,7 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
   <style>
   body{
     padding-top: 50pt;
@@ -154,7 +155,12 @@
       <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
         <i class="fa fa-table"></i> Workflow Hardware Multi Register Apply
       </div>
-
+      <br>
+      <div class="container-fluid ">
+        <div class="alert alert-danger animated bounceInUp" role="alert">
+          <i class="fa fa-exclamation-circle"></i> Hey! You inputs are invalid. Wanna recheck?
+        </div>
+      </div>
       <br>
       <div class="container-fluid">
         <table class="table table-bordered">
@@ -327,7 +333,7 @@
             (シ)･･･システム管理者のみ表示</p>
 
             <div class="mx-auto" style="width: 200px;">
-              <a href="hardwareeditinvalid.html">
+              <a href="hardwareconfig.html">
                 <button class="btn btn-success">Submit</button>
               </a>
             </div>
