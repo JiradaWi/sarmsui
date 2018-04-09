@@ -18,138 +18,142 @@
   <link href="css/sb-admin.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <style>
-    body{
-      padding-top: 50pt;
-      background-color: #CCC6C7;
-    }
+  body{
+    padding-top: 50pt;
+    background-color: #CCC6C7;
+  }
+  .tbhead{
+    font-weight: bold;
+    text-align: center;
+  }
   </style>
 </head>
 
-<body>
+<body  id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
-  <a class="navbar-brand" href="index.html">SARMS <3</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <a class="navbar-brand" href="index.html">SARMS <3</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <!--SOGO-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Sogo
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="sogo.html">Sogo</a>
-          <a class="dropdown-item" href="sogotop.html">Sogo top</a>
-          <a class="dropdown-item" href="#">Sogo count</a>
-        </div>
-      </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!--SOGO-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sogo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="sogo.html">Sogo</a>
+            <a class="dropdown-item" href="sogotop.html">Sogo top</a>
+            <a class="dropdown-item" href="#">Sogo count</a>
+          </div>
+        </li>
 
-      <!--Daicho-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Daicho
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="daicho.html">Hardware</a>
-          <a class="dropdown-item" href="softwaredaicho.html">Software</a>
-          <a class="dropdown-item" href="licensedaicho.html">License</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">License List</a>
-        </div>
-      </li>
+        <!--Daicho-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Daicho
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="daicho.html">Hardware</a>
+            <a class="dropdown-item" href="softwaredaicho.html">Software</a>
+            <a class="dropdown-item" href="licensedaicho.html">License</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">License List</a>
+          </div>
+        </li>
 
-      <!-- History -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          History
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Hardware History</a>
-          <a class="dropdown-item" href="#">Software History</a>
-          <a class="dropdown-item" href="#">License History</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">License List History</a>
-        </div>
-      </li>
+        <!-- History -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            History
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Hardware History</a>
+            <a class="dropdown-item" href="#">Software History</a>
+            <a class="dropdown-item" href="#">License History</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">License List History</a>
+          </div>
+        </li>
 
-      <!-- Workflow -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Workflow
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
-          <a class="dropdown-item" href="#">Workflow hardware multi modification apply</a>
-          <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
-          <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Workflow License multi modification apply</a>
-          <a class="dropdown-item" href="#">Workflow License multi transfer apply</a>
-          <a class="dropdown-item" href="#">Workflow License multi disposal apply</a>
-        </div>
-      </li>
+        <!-- Workflow -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Workflow
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi modification apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
+            <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Workflow License multi modification apply</a>
+            <a class="dropdown-item" href="#">Workflow License multi transfer apply</a>
+            <a class="dropdown-item" href="#">Workflow License multi disposal apply</a>
+          </div>
+        </li>
 
-      <!-- Workflow List -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Workflow List
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Workflow All</a>
-          <a class="dropdown-item" href="#">Workflow Create</a>
-          <a class="dropdown-item" href="#">Workflow Request</a>
-        </div>
-      </li>
+        <!-- Workflow List -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Workflow List
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Workflow All</a>
+            <a class="dropdown-item" href="#">Workflow Create</a>
+            <a class="dropdown-item" href="#">Workflow Request</a>
+          </div>
+        </li>
 
-      <!-- Maintenance -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Maintenance
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">User</a>
-          <a class="dropdown-item" href="#">Sosiki</a>
-        </div>
-      </li>
+        <!-- Maintenance -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Maintenance
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">User</a>
+            <a class="dropdown-item" href="#">Sosiki</a>
+          </div>
+        </li>
 
-      <!-- Inventory -->
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inventory <span class="sr-only">(current)</span></a>
-      </li>
+        <!-- Inventory -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inventory <span class="sr-only">(current)</span></a>
+        </li>
 
-      <!-- Import -->
-      <li class="nav-item active">
-        <a class="nav-link" href="import.html">Import <span class="sr-only">(current)</span></a>
-      </li>
+        <!-- Import -->
+        <li class="nav-item active">
+          <a class="nav-link" href="import.html">Import <span class="sr-only">(current)</span></a>
+        </li>
 
-      <!-- Management Information -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Management Information
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Console</a>
-          <a class="dropdown-item" href="#">Prohibit Software</a>
-          <a class="dropdown-item" href="#">Setting</a>
-          <a class="dropdown-item" href="#">Code Setting</a>
-          <a class="dropdown-item" href="#">Sogo Setting</a>
-          <a class="dropdown-item" href="#">Control</a>
-          <a class="dropdown-item" href="#">Exit</a>
-        </div>
-      </li>
+        <!-- Management Information -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Management Information
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Console</a>
+            <a class="dropdown-item" href="#">Prohibit Software</a>
+            <a class="dropdown-item" href="#">Setting</a>
+            <a class="dropdown-item" href="#">Code Setting</a>
+            <a class="dropdown-item" href="#">Sogo Setting</a>
+            <a class="dropdown-item" href="#">Control</a>
+            <a class="dropdown-item" href="#">Exit</a>
+          </div>
+        </li>
 
-    </ul>
+      </ul>
 
       Jirada Wiwitumpon &nbsp;
       <a href="login.html">
         <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
       </a>
 
-  </div>
-</nav>
+    </div>
+  </nav>
   <div>
     <div class="container-fluid">
       <div class="row">
@@ -203,27 +207,126 @@
         </div>
       </div>
 
+      <div class="card">
+        <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
+          <i class="fa fa-table"></i> Sogo Count
+        </div>
+        <br>
+        <div class="container-fluid">
+          <table class="table table-bordered table-hover">
+            <tr>
+              <td colspan="4" class="tbhead bg-info text-white">総数 (所属と所属配下含む)</td>
+            </tr>
+            <tr>
+              <td class="tbhead">所属名称</td>
+              <td class="tbhead">台帳齟齬</td>
+              <td class="tbhead">インベントリ齟齬	</td>
+              <td class="tbhead">所属名称</td>
+            </tr>
+            <tr>
+              <td>石川県</td>
+              <td>642</td>
+              <td>2145</td>
+              <td>2311</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="tbhead bg-info text-white">所属計 (所属のみ)</td>
+            </tr>
+            <tr>
+              <td class="tbhead">所属名称</td>
+              <td class="tbhead">台帳齟齬</td>
+              <td class="tbhead">インベントリ齟齬	</td>
+              <td class="tbhead">所属名称</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>2</td>
+              <td>64</td>
+              <td>12</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="tbhead bg-info text-white">総計 明細</td>
+            </tr>
+            <tr>
+              <td class="tbhead">所属名称</td>
+              <td class="tbhead">台帳齟齬</td>
+              <td class="tbhead">インベントリ齟齬	</td>
+              <td class="tbhead">計</td>
+            </tr>
+            <tr>
+              <td>石川県/総務部</td>
+              <td>2</td>
+              <td>64</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>石川県/企画振興部</td>
+              <td>2</td>
+              <td>3</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>石川県/観光戦略推進部</td>
+              <td>0</td>
+              <td>0</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>石川県/出納室</td>
+              <td>2</td>
+              <td>64</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>石川県/人事委員会事務局</td>
+              <td>0</td>
+              <td>0</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>石川県/監査委員事務局</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>石川県/石川海区漁業調整委員会事務局</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>石川県/教育委員会</td>
+              <td>307</td>
+              <td>1675</td>
+              <td>1890</td>
+            </tr>
 
-      <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
-  
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Page level plugin JavaScript-->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
-    <!-- Custom scripts for this page-->
-    <script src="js/sb-admin-datatables.min.js"></script>
-    <script src="js/sb-admin-charts.min.js"></script>
-  </div>
-</body>
+          </table>
+        </div>
+      </div>
 
-</html>
+
+          <!-- Scroll to Top Button-->
+          <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fa fa-angle-up"></i>
+          </a>
+
+          <!-- Bootstrap core JavaScript-->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <!-- Core plugin JavaScript-->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <!-- Page level plugin JavaScript-->
+          <script src="vendor/chart.js/Chart.min.js"></script>
+          <script src="vendor/datatables/jquery.dataTables.js"></script>
+          <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+          <!-- Custom scripts for all pages-->
+          <script src="js/sb-admin.min.js"></script>
+          <!-- Custom scripts for this page-->
+          <script src="js/sb-admin-datatables.min.js"></script>
+          <script src="js/sb-admin-charts.min.js"></script>
+        </div>
+      </body>
+
+      </html>
