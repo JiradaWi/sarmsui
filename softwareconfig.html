@@ -17,15 +17,15 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
   <style>
-    body{
-      padding-top: 50pt;
-      background-color: #CCC6C7;
-    }
-    .tbhead{
-      text-align: center;
-      font-weight: bold;
-      background-color:#BFEAFF;
-    }
+  body{
+    padding-top: 50pt;
+    background-color: #CCC6C7;
+  }
+  .tbhead{
+    text-align: center;
+    font-weight: bold;
+    background-color:#BFEAFF;
+  }
   </style>
 </head>
 
@@ -61,7 +61,7 @@
             <a class="dropdown-item" href="softwaredaicho.html">Software</a>
             <a class="dropdown-item" href="licensedaicho.html">License</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">License List</a>
+            <a class="dropdown-item" href="licenselistdaicho.html">License List</a>
           </div>
         </li>
 
@@ -71,11 +71,11 @@
             History
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Hardware History</a>
-            <a class="dropdown-item" href="#">Software History</a>
-            <a class="dropdown-item" href="#">License History</a>
+            <a class="dropdown-item" href="hardwarehistory.html">License History</a>
+            <a class="dropdown-item" href="softwarehistory.html">Software History</a>
+            <a class="dropdown-item" href="licensehistory.html">License History</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">License List History</a>
+            <a class="dropdown-item" href="licenselisthistory.html">License List History</a>
           </div>
         </li>
 
@@ -86,7 +86,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
-            <a class="dropdown-item" href="#">Workflow hardware multi modification apply</a>
+            <a class="dropdown-item" href="workflowhardwaremultimodificationapply.html">Workflow hardware multi modification apply</a>
             <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
             <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
             <div class="dropdown-divider"></div>
@@ -144,80 +144,140 @@
             <a class="dropdown-item" href="#">Exit</a>
           </div>
         </li>
-
       </ul>
-
       Jirada Wiwitumpon &nbsp;
       <a href="login.html">
         <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
       </a>
-
     </div>
   </nav>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-      <div class="card">
-        <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
-          <i class="fa fa-table"></i> Register Software
-        </div>
-        <br>
-        <div class="container-fluid">
-          <table class="table table-hover table-bordered">
-            <tr>
-              <td colspan="2" class="tbhead">申請基本情報</td>
-            </tr>
-            <tr>
-              <td>申請先</td>
-              <td>申請者 -> 承認却下者</td>
-            </tr>
-            <tr>
-              <td>申請者所属	</td>
-              <td>石川県</td>
-            </tr>
-            <tr>
-              <td>申請日</td>
-              <td>
-                2018/04/09 16:48
-              </td>
-            </tr>
-            <tr>
-              <td>申請者</td>
-              <td>
-                ggwp
-              </td>
-            </tr>
-            <tr>
-              <td>申請者メールアドレス</td>
-              <td>
+    <div class="card">
+      <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
+        <i class="fa fa-table"></i> Register Software
+      </div>
+      <br>
+      <div class="container-fluid">
+        <table class="table table-hover table-bordered">
+          <tr>
+            <td colspan="2" class="tbhead">申請基本情報</td>
+          </tr>
+          <tr>
+            <td>申請先</td>
+            <td>申請者 -> 承認却下者</td>
+          </tr>
+          <tr>
+            <td>申請者所属	</td>
+            <td>石川県</td>
+          </tr>
+          <tr>
+            <td>申請日</td>
+            <td>
+              2018/04/09 16:48
+            </td>
+          </tr>
+          <tr>
+            <td>申請者</td>
+            <td>
+              ggwp
+            </td>
+          </tr>
+          <tr>
+            <td>申請者メールアドレス</td>
+            <td>
               gg@test.local
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" class="tbhead">申請内容</td>
-            </tr>
-            <tr>
-              <td>ハードウェア管理番号(ハ)</td>
-              <td>
-                50012
-              </td>
-            </tr>
-            <tr>
-              <td>使用者(ハ)</td>
-              <td>
-                50012-rakusol太郎
-              </td>
-            </tr>
-          </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tbhead">申請内容</td>
+          </tr>
+          <tr>
+            <td>ハードウェア管理番号(ハ)</td>
+            <td>
+              50012
+            </td>
+          </tr>
+          <tr>
+            <td>使用者(ハ)</td>
+            <td>
+              50012-rakusol太郎
+            </td>
+          </tr>
+        </table>
 
-          <table class="table table-hover table-bordered">
-            <tr>
-              <td colspan="11" class="tbhead">齟齬内容</td>
+        <table class="table table-hover table-bordered">
+          <tr>
+            <td colspan="11" class="tbhead">齟齬内容</td>
+          </tr>
+          <tr>
+            <td colspan="2">割当</td>
+            <td colspan="4">プログラムと機能での表示</td>
+            <td colspan="5">メーカー名</td>
+          </tr>
+          <tr>
+            <td>取消</td>
+            <td>ライセンス管理番号(ラ)</td>
+            <td>ライセンス名(辞)</td>
+            <td>版(辞)</td>
+            <td>種類(辞)</td>
+            <td>プログラムと機能での表示(収)</td>
+            <td>ダウングレード使用</td>
+            <td>ソフトウェア備考	</td>
+            <td>導入日</td>
+            <td>削除日</td>
+            <td>管理メモ(シ)</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>22038-1</td>
+            <td>Windows 7 Professional</td>
+            <td></td>
+            <td>プリインストール</td>
+            <td>Windows 7 Professional	</td>
+            <td>
+              Data desu!
+            </td>
+            <td>
+              Hello
+            </td>
+            <td>
+              Imma
+            </td>
+            <td>
+              Data
+            </td>
+            <td>
+              please
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>総20-50-1</td>
+            <td>一太郎2009[ガバメント版]</td>
+            <td>JL-Government</td>
+            <td>ボリュームライセンス</td>
+            <td>ATOK辞書・辞典の削除
+              JUST PDF [作成・編集]	</td>
+              <td>
+                hello
+              </td>
+              <td>
+                world
+              </td>
+              <td>
+                2018/04/09
+              </td>
+              <td>
+                2018/04/09
+              </td>
+              <td>
+                imma text
+              </td>
             </tr>
             <tr>
-              <td colspan="2">割当</td>
-              <td colspan="4">プログラムと機能での表示</td>
-              <td colspan="5">メーカー名</td>
+              <td colspan="11" class="tbhead">削除済ソフトウェア</td>
             </tr>
             <tr>
               <td>取消</td>
@@ -232,104 +292,41 @@
               <td>削除日</td>
               <td>管理メモ(シ)</td>
             </tr>
-            <tr>
-              <td></td>
-              <td>22038-1</td>
-              <td>Windows 7 Professional</td>
-              <td></td>
-              <td>プリインストール</td>
-              <td>Windows 7 Professional	</td>
-              <td>
-                Data desu!
-              </td>
-              <td>
-                Hello
-              </td>
-              <td>
-                Imma
-              </td>
-              <td>
-                Data
-              </td>
-              <td>
-                please
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>総20-50-1</td>
-              <td>一太郎2009[ガバメント版]</td>
-              <td>JL-Government</td>
-              <td>ボリュームライセンス</td>
-              <td>ATOK辞書・辞典の削除
-JUST PDF [作成・編集]	</td>
-              <td>
-               hello
-              </td>
-              <td>
-                world
-              </td>
-              <td>
-                2018/04/09
-              </td>
-              <td>
-                2018/04/09
-              </td>
-              <td>
-               imma text
-              </td>
-            </tr>
-            <tr>
-              <td colspan="11" class="tbhead">削除済ソフトウェア</td>
-            </tr>
-            <tr>
-            <td>取消</td>
-            <td>ライセンス管理番号(ラ)</td>
-            <td>ライセンス名(辞)</td>
-            <td>版(辞)</td>
-            <td>種類(辞)</td>
-            <td>プログラムと機能での表示(収)</td>
-            <td>ダウングレード使用</td>
-            <td>ソフトウェア備考	</td>
-            <td>導入日</td>
-            <td>削除日</td>
-            <td>管理メモ(シ)</td>
-          </tr>
           </table>
 
           <div style="text-align:center">
             <a href="softwareconfig.html">
-            <button class="btn btn-success">Confirm</button>
-          </a>
-          <a href="registersoftware.html">
-          <button class="btn btn-secondary">Back</button>
-        </a>
+              <button class="btn btn-success">Confirm</button>
+            </a>
+            <a href="registersoftware.html">
+              <button class="btn btn-secondary">Back</button>
+            </a>
           </div>
         </div>
         <br>
       </div>
-<br>
+      <br>
 
 
-    <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
+      <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+      </a>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Page level plugin JavaScript-->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
-    <!-- Custom scripts for this page-->
-    <script src="js/sb-admin-datatables.min.js"></script>
-    <script src="js/sb-admin-charts.min.js"></script>
-  </div>
-</body>
+      <!-- Bootstrap core JavaScript-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Core plugin JavaScript-->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- Page level plugin JavaScript-->
+      <script src="vendor/chart.js/Chart.min.js"></script>
+      <script src="vendor/datatables/jquery.dataTables.js"></script>
+      <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+      <!-- Custom scripts for all pages-->
+      <script src="js/sb-admin.min.js"></script>
+      <!-- Custom scripts for this page-->
+      <script src="js/sb-admin-datatables.min.js"></script>
+      <script src="js/sb-admin-charts.min.js"></script>
+    </div>
+  </body>
 
-</html>
+  </html>
