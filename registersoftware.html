@@ -21,10 +21,15 @@
       padding-top: 50pt;
       background-color: #CCC6C7;
     }
+    .tbhead{
+      text-align: center;
+      font-weight: bold;
+      background-color:#BFEAFF;
+    }
   </style>
 </head>
 
-<body class="" id="">
+<body class="" id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
     <a class="navbar-brand" href="index.html">SARMS <3</a>
@@ -151,15 +156,165 @@
   </nav>
 
     <div class="container-fluid">
+      <div class="card">
+        <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
+          <i class="fa fa-table"></i> Register Software
+        </div>
+        <br>
+        <div class="container-fluid">
+          <table class="table table-hover table-bordered">
+            <tr>
+              <td colspan="2" class="tbhead">申請基本情報</td>
+            </tr>
+            <tr>
+              <td>申請先</td>
+              <td>申請者 -> 承認却下者</td>
+            </tr>
+            <tr>
+              <td>申請者所属	</td>
+              <td>石川県</td>
+            </tr>
+            <tr>
+              <td>申請日</td>
+              <td>
+                <input type="date" class="form-control">
+              </td>
+            </tr>
+            <tr>
+              <td>申請者</td>
+              <td>
+                <input type="text" class="form-control"><br>
+                <button class="btn btn-primary">btn</button><br>
+                姓と名を必ず入力。<br>
+（例）　日本　太郎 （姓と名の間はスペースを入力。）
+              </td>
+            </tr>
+            <tr>
+              <td>申請者メールアドレス</td>
+              <td>
+                <textarea class="form-control">gg@test.local</textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="tbhead">申請内容</td>
+            </tr>
+            <tr>
+              <td>ハードウェア管理番号(ハ)</td>
+              <td>
+                50012 <br>
+                <button class="btn btn-secondary">btn</button>
+              </td>
+            </tr>
+            <tr>
+              <td>使用者(ハ)</td>
+              <td>
+                50012-rakusol太郎
+              </td>
+            </tr>
+          </table>
 
-      <!-- Icon Cards-->
+          <table class="table table-hover table-bordered">
+            <tr>
+              <td colspan="11" class="tbhead">齟齬内容</td>
+            </tr>
+            <tr>
+              <td colspan="2">割当</td>
+              <td colspan="4">プログラムと機能での表示</td>
+              <td colspan="5">メーカー名</td>
+            </tr>
+            <tr>
+              <td>取消</td>
+              <td>ライセンス管理番号(ラ)</td>
+              <td>ライセンス名(辞)</td>
+              <td>版(辞)</td>
+              <td>種類(辞)</td>
+              <td>プログラムと機能での表示(収)</td>
+              <td>ダウングレード使用</td>
+              <td>ソフトウェア備考	</td>
+              <td>導入日</td>
+              <td>削除日</td>
+              <td>管理メモ(シ)</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>22038-1</td>
+              <td>Windows 7 Professional</td>
+              <td></td>
+              <td>プリインストール</td>
+              <td>Windows 7 Professional	</td>
+              <td>
+                <select class="form-control">
+                  <option>Choose Me</option>
+                  <option>Better Choose ME!!</option>
+                </select>
+              </td>
+              <td>
+                <textarea class="form-control"></textarea>
+              </td>
+              <td>
+                <input type="date" class="form-control">
+              </td>
+              <td>
+                <input type="date" class="form-control">
+              </td>
+              <td>
+                <textarea class="form-control"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>総20-50-1</td>
+              <td>一太郎2009[ガバメント版]</td>
+              <td>JL-Government</td>
+              <td>ボリュームライセンス</td>
+              <td>ATOK辞書・辞典の削除
+JUST PDF [作成・編集]	</td>
+              <td>
+                <select class="form-control">
+                  <option>Choose Me</option>
+                  <option>Better Choose ME!!</option>
+                </select>
+              </td>
+              <td>
+                <textarea class="form-control"></textarea>
+              </td>
+              <td>
+                <input type="date" class="form-control">
+              </td>
+              <td>
+                <input type="date" class="form-control">
+              </td>
+              <td>
+                <textarea class="form-control"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="11" class="tbhead">削除済ソフトウェア</td>
+            </tr>
+            <tr>
+            <td>取消</td>
+            <td>ライセンス管理番号(ラ)</td>
+            <td>ライセンス名(辞)</td>
+            <td>版(辞)</td>
+            <td>種類(辞)</td>
+            <td>プログラムと機能での表示(収)</td>
+            <td>ダウングレード使用</td>
+            <td>ソフトウェア備考	</td>
+            <td>導入日</td>
+            <td>削除日</td>
+            <td>管理メモ(シ)</td>
+          </tr>
+          </table>
+          <button class="btn btn-secondary">Add License</button>
+          <div style="text-align:center">
+            <button class="btn btn-success">Submit</button>
+          </div>
+        </div>
+        <br>
+      </div>
+<br>
 
 
-
-      <!-- Example DataTables Card-->
-
-
-    <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
