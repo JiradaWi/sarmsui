@@ -16,6 +16,7 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <style>
     body{
       padding-top: 50pt;
@@ -162,6 +163,10 @@
         </div>
         <br>
         <div class="container-fluid">
+        <div class="alert alert-danger animated bounceInUp" role="alert">
+          <i class="fa fa-exclamation-circle"></i> Hey! You inputs are invalid. Wanna recheck?
+        </div>       
+
           <table class="table table-hover table-bordered">
             <tr>
               <td colspan="2" class="tbhead">申請基本情報</td>
@@ -307,7 +312,7 @@ JUST PDF [作成・編集]	</td>
           </table>
           <button class="btn btn-secondary">Add License</button>
           <div style="text-align:center">
-            <a href="softwareinvalid.html">
+            <a href="softwareconfig.html">
             <button class="btn btn-success">Submit</button>
           </a>
           </div>
