@@ -181,9 +181,18 @@
             <td>申請者</td>
             <td>
               <input type="text" class="form-control"><br>
-              <button class="btn btn-primary">btn</button><br>
-              姓と名を必ず入力。<br>
-              （例）　日本　太郎 （姓と名の間はスペースを入力。）
+              <div class="btn-group dropdown">
+                <button type="button" class="btn btn-info btn-sm dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Description
+                </button>
+                <div class="dropdown-menu">
+                  <p class="dropdown-item" >
+                    姓と名を必ず入力。<br>
+                    （例）　日本　太郎 （姓と名の間はスペースを入力。）
+                  </p>
+                </div>
+              </div>
+
             </td>
           </tr>
           <tr>
@@ -302,7 +311,7 @@
               <td>管理メモ(シ)</td>
             </tr>
           </table>
-          <button class="btn btn-secondary">Add License</button>
+          <button class="btn btn-secondary" data-toggle="modal" data-target="#mdal">Add License</button>
           <div style="text-align:center">
             <a href="softwareinvalid.html">
               <button class="btn btn-success">Submit</button>
@@ -317,6 +326,164 @@
       <a class="scroll-to-top rounded" href="#page-top">
         <i class="fa fa-angle-up"></i>
       </a>
+
+      <div class="modal fade" id="mdal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" style="max-width:1200px" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Choose License</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne" style="background-color:#BFEAFF">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span><span class="fa fa-fw fa-search"></span> Search</span>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+
+              <div class="card-body">
+                <div class="row justify-content-md-center" >
+                  <div class="col col-lg-1">
+
+                  </div>
+                  <div class="col-md-auto">
+                    <form >
+                      <div class="form-inline">
+                        First Condition:&emsp;&emsp;&emsp;&nbsp;
+                        <select class="form-control">
+                          <option>----------</option>
+                          <option>Name</option>
+                          <option>Key</option>
+                          <option>Date</option>
+                          <option>Something</option>
+                        </select>
+                        &emsp;ga&emsp;
+                        <input class="form-control">&emsp;
+                        <select class="form-control">
+                          <option>include</option>
+                          <option>more than</option>
+                          <option>less than</option>
+                          <option>equal</option>
+                          <option>no include</option>
+                        </select>&emsp;
+                        <select class="form-control">
+                          <option>and</option>
+                          <option>or</option>
+                        </select>
+                      </div>
+                      <div class="form-inline">
+                        Second Condition:&emsp;&emsp;
+                        <select class="form-control">
+                          <option>----------</option>
+                          <option>Name</option>
+                          <option>Key</option>
+                          <option>Date</option>
+                          <option>Something</option>
+                        </select>
+                        &emsp;ga&emsp;
+                        <input class="form-control">&emsp;
+                        <select class="form-control">
+                          <option>include</option>
+                          <option>more than</option>
+                          <option>less than</option>
+                          <option>equal</option>
+                          <option>no include</option>
+                        </select>&emsp;
+                        <select class="form-control">
+                          <option>and</option>
+                          <option>or</option>
+                        </select>
+                        <br><br>
+                      </div>
+                      <div class="form-inline">
+                        Thrid Condition:&emsp;&emsp;&emsp; &nbsp;
+                        <select class="form-control">
+                          <option>----------</option>
+                          <option>Name</option>
+                          <option>Key</option>
+                          <option>Date</option>
+                          <option>Something</option>
+                        </select>
+                        &emsp;ga&emsp;
+                        <input class="form-control">&emsp;
+                        <select class="form-control">
+                          <option>include</option>
+                          <option>more than</option>
+                          <option>less than</option>
+                          <option>equal</option>
+                          <option>no include</option>
+                        </select>&emsp;
+                        <select class="form-control">
+                          <option>and</option>
+                          <option>or</option>
+                        </select>
+                      </div>
+                      <br>
+                      <div class="mx-auto" style="width: 200px;">
+                        <button class="btn btn-success" class="mx-auto">Search</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col col-lg-1">
+                  </div>
+                </div><!--card-->
+              </div><!--mx-->
+            </div>
+          </div>
+        </div>
+        <table class="table table-bordered table-hover">
+          <tr>
+            <td class="tbhead">ハードウェア管理番号</td>
+            <td class="tbhead">所属</td>
+            <td class="tbhead">使用者</td>
+            <td class="tbhead">調達日</td>
+            <td class="tbhead">コンピュータ名(収)</td>
+            <td class="tbhead">IPアドレス(収)</td>
+            <td class="tbhead">設置場所</td>
+          </tr>
+          <tr>
+            <td>196</td>
+            <td>石川県</td>
+            <td>40006-rakusol太郎</td>
+            <td>2018/03/01	</td>
+            <td>002-PC</td>
+            <td>192.168.24.69</td>
+            <td>コンピューター室1</td>
+          </tr>
+          <tr>
+            <td>211</td>
+            <td>石川県</td>
+            <td>40006-rakusol太郎</td>
+            <td>2018/03/01	</td>
+            <td>002-PC</td>
+            <td>192.168.24.69</td>
+            <td>コンピューター室1</td>
+          </tr>
+          <tr>
+            <td>231</td>
+            <td>石川県</td>
+            <td>40006-rakusol太郎</td>
+            <td>2018/03/01	</td>
+            <td>002-PC</td>
+            <td>192.168.24.69</td>
+            <td>コンピューター室1</td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Bootstrap core JavaScript-->
       <script src="vendor/jquery/jquery.min.js"></script>
