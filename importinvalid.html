@@ -16,6 +16,7 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <style>
   body{
     padding-top: 50pt;
@@ -139,26 +140,30 @@
             <a class="dropdown-item" href="#">Exit</a>
           </div>
         </li>
-
       </ul>
 
       Jirada Wiwitumpon &nbsp;
       <a href="login.html">
         <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
       </a>
-
     </div>
   </nav>
 
   <div class="container-fluid">
     <form>
       <div class="card">
-
         <div class="card-header" style="background-color:#BFEAFF;font-weight:bold;">
-
           <i class="fa fa-table"></i> Import
         </div>
         <br>
+        <div class="container-fluid ">
+          <div class="alert alert-danger animated bounceInUp" role="alert">
+            <i class="fa fa-exclamation-circle"></i>
+            Your import is invalid! <br>
+            1. 2nd row at "hardware name" column.<br>
+            2. 5th row at "email" column
+          </div>
+        </div>
         <div class="container-fluid">
           <table class="table table-bordered table-hover">
             <tr>
@@ -227,8 +232,8 @@
           </table>
           <br>
           <div class="mx-auto" style="width: 200px;">
-            <a href="importinvalid.html" class="btn btn-success">
-              Submit
+            <a href="importinvalid.html">
+              <button class="btn btn-success">Submit</button>
             </a>
           </div>
           <br>
