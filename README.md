@@ -4,12 +4,12 @@ Copy from SB-admin bootstrap theme. :P
 Click >> https://jiradawi.github.io/sarmsui/
 
 # Design Flow and Explanations
-##In every pages
+## In every pages
 - Scrolling down will activate "back to top" button at the bottom right of the page. Click to navigate back to top.
 - All nav bar are fixed.
 - All datable are Bootstrap datable. The document can be found here >> https://datatables.net/examples/styling/bootstrap4
 
-##First page: index.html >> https://jiradawi.github.io/sarmsui/
+## First page: index.html >> https://jiradawi.github.io/sarmsui/
 - Showing notifications on the top. Using animation to catch user eyes.
 
 ## Sogo Page: sogo.html >> https://jiradawi.github.io/sarmsui/sogo.html
