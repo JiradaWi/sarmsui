@@ -182,7 +182,7 @@
           <tr>
             <td>申請日</td>
             <td>
-              <input type="date" class="form-control">
+              <input class="form-control"   name="date" placeholder="YYYY/MM/DD" type="text">
             </td>
           </tr>
           <tr>
@@ -257,10 +257,10 @@
               <textarea class="form-control"></textarea>
             </td>
             <td>
-              <input type="date" class="form-control">
+              <input class="form-control"   name="date" placeholder="YYYY/MM/DD" type="text">
             </td>
             <td>
-              <input type="date" class="form-control">
+              <input class="form-control"   name="date" placeholder="YYYY/MM/DD" type="text">
             </td>
             <td>
               <textarea class="form-control"></textarea>
@@ -284,10 +284,10 @@
                 <textarea class="form-control"></textarea>
               </td>
               <td>
-                <input type="date" class="form-control">
+                <input class="form-control"   name="date" placeholder="YYYY/MM/DD" type="text">
               </td>
               <td>
-                <input type="date" class="form-control">
+                <input class="form-control"   name="date" placeholder="YYYY/MM/DD" type="text">
               </td>
               <td>
                 <textarea class="form-control"></textarea>
@@ -496,6 +496,21 @@
       <!-- Custom scripts for this page-->
       <script src="js/sb-admin-datatables.min.js"></script>
       <script src="js/sb-admin-charts.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+      <script>
+      $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        date_input.datepicker({
+          format: 'yyyy/mm/dd',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+        })
+      })
+      </script>
     </div>
   </body>
 

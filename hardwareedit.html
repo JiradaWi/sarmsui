@@ -173,7 +173,7 @@
           </tr>
           <tr>
             <td>申請日<span style="color:red">*</span></td>
-            <td><input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/></td>
+            <td><input class="form-control" id="date" name="date" placeholder="YYYY/MM/DD" type="text"/></td>
           </tr>
           <tr>
             <td>申請者<span style="color:red">*</span></td>
@@ -264,10 +264,10 @@
                 <div class="dropdown-menu">
                   <p class="dropdown-item" >
                     姓と名を必ず入力。<br>
-（例）　日本　太郎 （姓と名の間はスペースを入力。）<br><br>
-姓名に代えて役割でも可<br>
-（例）　情報化推進員<br>
-○○システム管理者
+                    （例）　日本　太郎 （姓と名の間はスペースを入力。）<br><br>
+                    姓名に代えて役割でも可<br>
+                    （例）　情報化推進員<br>
+                    ○○システム管理者
                   </p>
                 </div>
               </div>
@@ -299,12 +299,12 @@
                 <div class="dropdown-menu">
                   <p class="dropdown-item" >
                     購入/リース契約先：　○○株式会社<br>
-保守連絡先：　□□株式会社　　担当：△△<br>
-保守連絡電話番号：　076-xxx-xxxx<br>
-リース期間：　　平成○年○月○日　～　平成○年○月○日<br>
-調達金額：　　○○円<br><br>
+                    保守連絡先：　□□株式会社　　担当：△△<br>
+                    保守連絡電話番号：　076-xxx-xxxx<br>
+                    リース期間：　　平成○年○月○日　～　平成○年○月○日<br>
+                    調達金額：　　○○円<br><br>
 
-その他記載事項がある場合は、追加
+                    その他記載事項がある場合は、追加
                   </p>
                 </div>
               </div>
@@ -313,7 +313,7 @@
           <tr>
             <td>調達日	</td>
             <td>
-            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/><br>
+              <input class="form-control" id="date" name="date" placeholder="YYYY/MM/DD" type="text"/><br>
               <div class="btn-group dropdown">
                 <button type="button" class="btn btn-info btn-sm dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Description
@@ -329,8 +329,8 @@
           <tr>
             <td>廃棄日	</td>
             <td>
-            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text">
-            <br>
+              <input class="form-control" id="date" name="date" placeholder="YYYY/MM/DD" type="text">
+              <br>
               <div class="btn-group dropdown">
                 <button type="button" class="btn btn-info btn-sm dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Description
@@ -346,7 +346,6 @@
           <tr>
             <td>使用者によるソフトウェア追加導入・削除(シ)
               説明<br>
-
               「可能」から「～のため不可能」に変更した場合、<br>収集情報の更新が指定日以上行われなくても、<br>齟齬として出力しない。	</td>
               <td>
                 <select class="form-control">
@@ -388,12 +387,10 @@
           </div>
         </div>
       </div>
-
       <br>
       <a class="scroll-to-top rounded" href="#page-top">
         <i class="fa fa-angle-up"></i>
       </a>
-
 
       <!-- Bootstrap core JavaScript-->
       <script src="vendor/jquery/jquery.min.js"></script>
@@ -411,20 +408,20 @@
       <script src="js/sb-admin-charts.min.js"></script>
 
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
-  <script>
-  	$(document).ready(function(){
-  		var date_input=$('input[name="date"]'); //our date input has the name "date"
-  		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
-  		date_input.datepicker({
-  			format: 'yyyy/mm/dd',
-  			container: container,
-  			todayHighlight: true,
-  			autoclose: true,
-  		})
-  	})
-  </script>
+      <script>
+      $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        date_input.datepicker({
+          format: 'yyyy/mm/dd',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+        })
+      })
+      </script>
     </div>
   </body>
 
