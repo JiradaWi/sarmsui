@@ -173,7 +173,7 @@
           </tr>
           <tr>
             <td>申請日<span style="color:red">*</span></td>
-            <td><input type="date" class="form-control"></td>
+            <td><input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/></td>
           </tr>
           <tr>
             <td>申請者<span style="color:red">*</span></td>
@@ -187,6 +187,7 @@
                   <p class="dropdown-item" >
                     Just input a name!
                   </p>
+
                 </div>
               </div>
             </td>
@@ -264,15 +265,12 @@
                   <p class="dropdown-item" >
                     姓と名を必ず入力。<br>
 （例）　日本　太郎 （姓と名の間はスペースを入力。）<br><br>
-
 姓名に代えて役割でも可<br>
 （例）　情報化推進員<br>
 ○○システム管理者
                   </p>
-
                 </div>
               </div>
-
             </td>
           </tr>
           <tr>
@@ -308,16 +306,14 @@
 
 その他記載事項がある場合は、追加
                   </p>
-
                 </div>
               </div>
-
             </td>
           </tr>
           <tr>
             <td>調達日	</td>
             <td>
-              <input type="date" class="form-control" value="07/02/2018"><br>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/><br>
               <div class="btn-group dropdown">
                 <button type="button" class="btn btn-info btn-sm dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Description
@@ -326,7 +322,6 @@
                   <p class="dropdown-item" >
                     Date data!
                   </p>
-
                 </div>
               </div>
             </td>
@@ -334,7 +329,8 @@
           <tr>
             <td>廃棄日	</td>
             <td>
-              <input type="date" class="form-control"><br>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text">
+            <br>
               <div class="btn-group dropdown">
                 <button type="button" class="btn btn-info btn-sm dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Description
@@ -343,7 +339,6 @@
                   <p class="dropdown-item" >
                     Date data krub
                   </p>
-
                 </div>
               </div>
             </td>
@@ -371,7 +366,6 @@
                     <p class="dropdown-item" >
                       Select detail
                     </p>
-
                   </div>
                 </div>
               </td>
@@ -384,24 +378,22 @@
             </tr>
           </table>
           <p><span style="color:red">*</span>･･･必須項目
-
             (シ)･･･システム管理者のみ表示</p>
-
             <div class="mx-auto" style="width: 200px;">
               <a href="hardwareeditinvalid.html">
                 <button class="btn btn-success">Submit</button>
               </a>
             </div>
             <br>
-
           </div>
         </div>
       </div>
+
       <br>
       <a class="scroll-to-top rounded" href="#page-top">
         <i class="fa fa-angle-up"></i>
       </a>
-      <!-- Logout Modal-->
+
 
       <!-- Bootstrap core JavaScript-->
       <script src="vendor/jquery/jquery.min.js"></script>
@@ -417,6 +409,22 @@
       <!-- Custom scripts for this page-->
       <script src="js/sb-admin-datatables.min.js"></script>
       <script src="js/sb-admin-charts.min.js"></script>
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+  <script>
+  	$(document).ready(function(){
+  		var date_input=$('input[name="date"]'); //our date input has the name "date"
+  		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+  		date_input.datepicker({
+  			format: 'yyyy/mm/dd',
+  			container: container,
+  			todayHighlight: true,
+  			autoclose: true,
+  		})
+  	})
+  </script>
     </div>
   </body>
 
