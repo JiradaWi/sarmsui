@@ -8,6 +8,7 @@ Click >> https://jiradawi.github.io/sarmsui/
 - Scrolling down will activate "back to top" button at the bottom right of the page. Click to navigate back to top.
 - All nav bar are fixed.
 - All datable are Bootstrap datable. The document can be found here >> https://datatables.net/examples/styling/bootstrap4
+- All date input was changed from boring input to Bootstrap date picker. With this date picker, the result will be the same in every browser.
 
 ## First page: index.html >> https://jiradawi.github.io/sarmsui/
 - Showing notifications on the top. Using animation to catch user eyes.
@@ -44,7 +45,5 @@ Without these websites, my life is a disaster.
 - Bootstrap data table >> https://datatables.net/examples/styling/bootstrap4
 - Animate.css >> https://daneden.github.io/animate.css/
 - Icon >> https://fontawesome.com/icons?d=gallery
-
-# My recommendation
 - Date time picker from bootstrap >> https://bootstrap-datepicker.readthedocs.io/en/latest/
 Look much better then the old one. :D
