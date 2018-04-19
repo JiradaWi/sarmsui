@@ -14,6 +14,13 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <style>
+  .meow{
+    transition: 1s;
+    border-radius: 100%;
+
+  }
+  </style>
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -148,11 +155,10 @@
       </p>
     </div>
     <marquee>
-      <img id="meow" src="https://media.giphy.com/media/NxzLZ40SufTDa/giphy.gif" style="display:none">
+      <img id="meow" src="https://media.giphy.com/media/NxzLZ40SufTDa/giphy.gif" style="display:none;transition:1s;">
       <img id="wolf" src="https://media3.giphy.com/media/mokQK7oyiR8Sk/giphy.gif" style="display:none">
     </marquee>
   </div>
-
 
 
   <!-- Bootstrap core JavaScript-->
@@ -175,6 +181,11 @@
     document.getElementById("meow").style.display = "inline";
     document.getElementById("wolf").style.display = "inline";
   }
+
+  $('#meow').click(function(){
+    $(this).toggleClass("meow");
+  })
+
   </script>
 
 </body>
