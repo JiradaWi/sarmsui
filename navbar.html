@@ -37,6 +37,8 @@
     display: none;
   }
 
+
+
   .snowflake {
     position: absolute;
     display: block;
@@ -208,7 +210,6 @@
             </div>
           </nav>
 
-
           <div id="snow" style="z-index:-2">
           </div>
           <br>
@@ -232,60 +233,6 @@
               <img class="img" id="wolf" src="https://media3.giphy.com/media/mokQK7oyiR8Sk/giphy.gif" style="display:none;transition:1s;">
             </marquee>
           </div>
-<<<<<<< current
-=======
-        </li>
-      </ul>
-      Jirada Wiwitumpon &nbsp;
-      <a href="login.html">
-        <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
-      </a>
-    </div>
-  </nav>
-  <br>
-  <div class="container-fluid">
-    <div class="jumbotron animated rotateIn"  id="jbt">
-      <div class="row">
-        <div class="col-8">
-          <h1 class="display-4">Sorry for cannot present this by myself.</h1>
-          <p class="lead">Just click! Your brain is too heavy? Stop using them, just CLICK!.</p>
-        </div>
-        <div class="col-4" styl>
-          <img src="https://media.tenor.com/images/c1bf39cca74afeddee2e0f4408a45c74/tenor.gif">
-        </div>
-      </div>
-      <p class="lead">
-        <button class="btn btn-primary btn-lg" onclick="colorful()" role="button">CLICK ME!!!</button>
-      </p>
-    </div>
-    <marquee>
-      <img id="meow" src="https://media.giphy.com/media/NxzLZ40SufTDa/giphy.gif" style="display:none;transition:1s;">
-      <img id="wolf" src="https://media3.giphy.com/media/mokQK7oyiR8Sk/giphy.gif" style="display:none">
-    </marquee>
-  </div>
-
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin.min.js"></script>
-  <script>
-  function colorful() {
-    setInterval(function(){
-      document.getElementById("jbt").style.transition = "all 1s";
-      var a = Math.floor(Math.random() * 255);
-      var b = Math.floor(Math.random() * 255);
-      var c = Math.floor(Math.random() * 255);
-      document.getElementById('jbt').style.backgroundColor="rgb("+a+","+b+","+c+")";
-
-    }, 1000);
-    document.getElementById("meow").style.display = "inline";
-    document.getElementById("wolf").style.display = "inline";
-  }
->>>>>>> before discard
 
 
           <!-- Bootstrap core JavaScript-->
@@ -411,12 +358,9 @@
                   wind = event.gamma / 10;
                 }
               };
-
               update();
             };
-
             return Snowflake;
-
           }());
 
           window.onload = function() {
