@@ -38,6 +38,10 @@ Click >> https://jiradawi.github.io/sarmsui/
 
 There are a lot more page that I've done but those pages have no interesting design idea. You can explore them.
 
+
+Last but not least...
+https://jiradawi.github.io/sarmsui/navbar
+
 # Credit
 Without these websites, my life is a disaster.
 - Bootstrap4  >> https://getbootstrap.com/
@@ -46,8 +50,7 @@ Without these websites, my life is a disaster.
 - Animate.css >> https://daneden.github.io/animate.css/
 - Icon >> https://fontawesome.com/icons?d=gallery
 - Date time picker from bootstrap >> https://bootstrap-datepicker.readthedocs.io/en/latest/
-Look much better then the old one. :D
+Look much better then the old one.
+- Winter is Coming! Not necessary but... >> https://codepen.io/neave/pen/JqwHt
 
 
-Last but not least...
-https://jiradawi.github.io/sarmsui/navbar
