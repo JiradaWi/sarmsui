@@ -21,122 +21,219 @@
     border-radius: 100%;
 
   }
-  </style>
-</head>
+  html {
+    height: 100%;
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
-    <a class="navbar-brand" href="index.html">SARMS <3</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  }
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <!--SOGO-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Sogo
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="sogo.html">Sogo</a>
-            <a class="dropdown-item" href="sogotop.html">Sogo top</a>
-            <a class="dropdown-item" href="sogocount.html">Sogo count</a>
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .snowflake {
+    position: absolute;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-radial-gradient(
+      center,
+      circle farthest-corner,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 0) 100%
+      );
+      background-image: -moz-radial-gradient(
+        center,
+        circle farthest-corner,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(255, 255, 255, 0) 100%
+        );
+        background-image: -ms-radial-gradient(
+          center,
+          circle farthest-corner,
+          rgba(255, 255, 255, 1) 40%,
+          rgba(255, 255, 255, 0) 100%
+          );
+          background-image: radial-gradient(
+            center,
+            circle farthest-corner,
+            rgba(255, 255, 255, 1) 40%,
+            rgba(255, 255, 255, 0) 100%
+            );
+          }
+
+          #snow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+          }
+          </style>
+        </head>
+
+        <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #6298B2;">
+            <a class="navbar-brand" href="index.html">SARMS <3</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <!--SOGO-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sogo
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="sogo.html">Sogo</a>
+                    <a class="dropdown-item" href="sogotop.html">Sogo top</a>
+                    <a class="dropdown-item" href="sogocount.html">Sogo count</a>
+                  </div>
+                </li>
+
+                <!--Daicho-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Daicho
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="daicho.html">Hardware</a>
+                    <a class="dropdown-item" href="softwaredaicho.html">Software</a>
+                    <a class="dropdown-item" href="licensedaicho.html">License</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="licenselistdaicho.html">License List</a>
+                  </div>
+                </li>
+
+                <!-- History -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    History
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="hardwarehistory.html">Hardware History</a>
+                    <a class="dropdown-item" href="softwarehistory.html">Software History</a>
+                    <a class="dropdown-item" href="licensehistory.html">License History</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="licenselisthistory.html">License List History</a>
+                  </div>
+                </li>
+
+                <!-- Workflow -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Workflow
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
+                    <a class="dropdown-item" href="workflowhardwaremultimodificationapply.html">Workflow hardware multi modification apply</a>
+                    <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
+                    <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Workflow License multi modification apply</a>
+                    <a class="dropdown-item" href="#">Workflow License multi transfer apply</a>
+                    <a class="dropdown-item" href="#">Workflow License multi disposal apply</a>
+                  </div>
+                </li>
+
+                <!-- Workflow List -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Workflow List
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Workflow All</a>
+                    <a class="dropdown-item" href="#">Workflow Create</a>
+                    <a class="dropdown-item" href="#">Workflow Request</a>
+                  </div>
+                </li>
+
+                <!-- Maintenance -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Maintenance
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">User</a>
+                    <a class="dropdown-item" href="#">Sosiki</a>
+                  </div>
+                </li>
+
+                <!-- Inventory -->
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inventory <span class="sr-only">(current)</span></a>
+                </li>
+
+                <!-- Import -->
+                <li class="nav-item active">
+                  <a class="nav-link" href="import.html">Import <span class="sr-only">(current)</span></a>
+                </li>
+
+                <!-- Management Information -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Management Information
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Console</a>
+                    <a class="dropdown-item" href="#">Prohibit Software</a>
+                    <a class="dropdown-item" href="#">Setting</a>
+                    <a class="dropdown-item" href="#">Code Setting</a>
+                    <a class="dropdown-item" href="#">Sogo Setting</a>
+                    <a class="dropdown-item" href="#">Control</a>
+                    <a class="dropdown-item" href="#">Exit</a>
+                  </div>
+                </li>
+              </ul>
+              Jirada Wiwitumpon &nbsp;
+              <a href="login.html">
+                <button class="btn btn-outline-light my-2 my-sm-0">Logout</button>
+              </a>
+            </div>
+          </nav>
+
+
+          <div id="snow" style="z-index:-2">
           </div>
-        </li>
-
-        <!--Daicho-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Daicho
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="daicho.html">Hardware</a>
-            <a class="dropdown-item" href="softwaredaicho.html">Software</a>
-            <a class="dropdown-item" href="licensedaicho.html">License</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="licenselistdaicho.html">License List</a>
+          <br>
+          <div class="container-fluid">
+            <div class="jumbotron animated rotateIn"  id="jbt">
+              <div class="row">
+                <div class="col-8">
+                  <h1 class="display-4">Sorry for cannot present this by myself.</h1>
+                  <p class="lead">Just click! Your brain is too heavy? Stop using them, just CLICK!.</p>
+                </div>
+                <div class="col-4" style="text-align:center">
+                  <img class="img" src="https://media.tenor.com/images/c1bf39cca74afeddee2e0f4408a45c74/tenor.gif">
+                </div>
+              </div>
+              <p class="lead">
+                <button class="btn btn-primary btn-lg" onclick="colorful()" role="button">CLICK ME!!!</button>
+              </p>
+            </div>
+            <marquee>
+              <img class="img" id="meow" src="https://media.giphy.com/media/NxzLZ40SufTDa/giphy.gif" style="display:none;transition:1s;">
+              <img class="img" id="wolf" src="https://media3.giphy.com/media/mokQK7oyiR8Sk/giphy.gif" style="display:none;transition:1s;">
+            </marquee>
           </div>
-        </li>
-
-        <!-- History -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            History
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="hardwarehistory.html">Hardware History</a>
-            <a class="dropdown-item" href="softwarehistory.html">Software History</a>
-            <a class="dropdown-item" href="licensehistory.html">License History</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="licenselisthistory.html">License List History</a>
-          </div>
-        </li>
-
-        <!-- Workflow -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Workflow
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="workflowhardwaremultiregisterapply.html">Workflow hardware multi register apply</a>
-            <a class="dropdown-item" href="workflowhardwaremultimodificationapply.html">Workflow hardware multi modification apply</a>
-            <a class="dropdown-item" href="#">Workflow hardware multi transfer apply</a>
-            <a class="dropdown-item" href="#">Workflow hardware multi disposal apply</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Workflow License multi modification apply</a>
-            <a class="dropdown-item" href="#">Workflow License multi transfer apply</a>
-            <a class="dropdown-item" href="#">Workflow License multi disposal apply</a>
-          </div>
-        </li>
-
-        <!-- Workflow List -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Workflow List
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Workflow All</a>
-            <a class="dropdown-item" href="#">Workflow Create</a>
-            <a class="dropdown-item" href="#">Workflow Request</a>
-          </div>
-        </li>
-
-        <!-- Maintenance -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Maintenance
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">User</a>
-            <a class="dropdown-item" href="#">Sosiki</a>
-          </div>
-        </li>
-
-        <!-- Inventory -->
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inventory <span class="sr-only">(current)</span></a>
-        </li>
-
-        <!-- Import -->
-        <li class="nav-item active">
-          <a class="nav-link" href="import.html">Import <span class="sr-only">(current)</span></a>
-        </li>
-
-        <!-- Management Information -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Management Information
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Console</a>
-            <a class="dropdown-item" href="#">Prohibit Software</a>
-            <a class="dropdown-item" href="#">Setting</a>
-            <a class="dropdown-item" href="#">Code Setting</a>
-            <a class="dropdown-item" href="#">Sogo Setting</a>
-            <a class="dropdown-item" href="#">Control</a>
-            <a class="dropdown-item" href="#">Exit</a>
-          </div>
+<<<<<<< current
+=======
         </li>
       </ul>
       Jirada Wiwitumpon &nbsp;
@@ -153,7 +250,7 @@
           <h1 class="display-4">Sorry for cannot present this by myself.</h1>
           <p class="lead">Just click! Your brain is too heavy? Stop using them, just CLICK!.</p>
         </div>
-        <div class="col-4" style="text-align:center">
+        <div class="col-4" styl>
           <img src="https://media.tenor.com/images/c1bf39cca74afeddee2e0f4408a45c74/tenor.gif">
         </div>
       </div>
@@ -188,13 +285,148 @@
     document.getElementById("meow").style.display = "inline";
     document.getElementById("wolf").style.display = "inline";
   }
+>>>>>>> before discard
 
-  $('#meow').click(function(){
-    $(this).toggleClass("meow");
-  })
 
-  </script>
+          <!-- Bootstrap core JavaScript-->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <!-- Core plugin JavaScript-->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <!-- Custom scripts for all pages-->
+          <script src="js/sb-admin.min.js"></script>
+          <script>
+          function colorful() {
+            setInterval(function(){
+              document.getElementById("jbt").style.transition = "all 1s";
+              var a = Math.floor(Math.random() * 255);
+              var b = Math.floor(Math.random() * 255);
+              var c = Math.floor(Math.random() * 255);
+              document.getElementById('jbt').style.backgroundColor="rgb("+a+","+b+","+c+")";
 
-</body>
+            }, 1000);
+            document.getElementById("meow").style.display = "inline";
+            document.getElementById("wolf").style.display = "inline";
+          }
 
-</html>
+          $('.img').click(function(){
+            $(this).toggleClass("meow");
+          })
+
+          var Snowflake = (function() {
+            var flakes;
+            var flakesTotal = 250;
+            var wind = 0;
+            var mouseX;
+            var mouseY;
+
+            function Snowflake(size, x, y, vx, vy) {
+              this.size = size;
+              this.x = x;
+              this.y = y;
+              this.vx = vx;
+              this.vy = vy;
+              this.hit = false;
+              this.melt = false;
+              this.div = document.createElement('div');
+              this.div.classList.add('snowflake');
+              this.div.style.width = this.size + 'px';
+              this.div.style.height = this.size + 'px';
+            }
+
+            Snowflake.prototype.move = function() {
+              if (this.hit) {
+                if (Math.random() > 0.995) this.melt = true;
+              } else {
+                this.x += this.vx + Math.min(Math.max(wind, -10), 10);
+                this.y += this.vy;
+              }
+
+              // Wrap the snowflake to within the bounds of the page
+              if (this.x > window.innerWidth + this.size) {
+                this.x -= window.innerWidth + this.size;
+              }
+
+              if (this.x < -this.size) {
+                this.x += window.innerWidth + this.size;
+              }
+
+              if (this.y > window.innerHeight + this.size) {
+                this.x = Math.random() * window.innerWidth;
+                this.y -= window.innerHeight + this.size * 2;
+                this.melt = false;
+              }
+
+              var dx = mouseX - this.x;
+              var dy = mouseY - this.y;
+              this.hit = !this.melt && this.y < mouseY && dx * dx + dy * dy < 2400;
+            };
+
+            Snowflake.prototype.draw = function() {
+              this.div.style.transform =
+              this.div.style.MozTransform =
+              this.div.style.webkitTransform =
+              'translate3d(' + this.x + 'px' + ',' + this.y + 'px,0)';
+            };
+
+            function update() {
+              for (var i = flakes.length; i--; ) {
+                var flake = flakes[i];
+                flake.move();
+                flake.draw();
+              }
+              requestAnimationFrame(update);
+            }
+
+            Snowflake.init = function(container) {
+              flakes = [];
+
+              for (var i = flakesTotal; i--; ) {
+                var size = (Math.random() + 0.2) * 12 + 1;
+                var flake = new Snowflake(
+                  size,
+                  Math.random() * window.innerWidth,
+                  Math.random() * window.innerHeight,
+                  Math.random() - 0.5,
+                  size * 0.3
+                );
+                container.appendChild(flake.div);
+                flakes.push(flake);
+              }
+
+              container.onmousemove = function(event) {
+                mouseX = event.clientX;
+                mouseY = event.clientY;
+                wind = (mouseX - window.innerWidth / 2) / window.innerWidth * 6;
+              };
+
+              container.ontouchstart = function(event) {
+                mouseX = event.targetTouches[0].clientX;
+                mouseY = event.targetTouches[0].clientY;
+                event.preventDefault();
+              };
+
+              window.ondeviceorientation = function(event) {
+                if (event) {
+                  wind = event.gamma / 10;
+                }
+              };
+
+              update();
+            };
+
+            return Snowflake;
+
+          }());
+
+          window.onload = function() {
+            setTimeout(function() {
+              Snowflake.init(document.getElementById('snow'));
+            }, 500);
+          }
+
+          </script>
+
+        </body>
+
+        </html>
