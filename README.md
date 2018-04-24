@@ -38,7 +38,24 @@ Click >> https://jiradawi.github.io/sarmsui/
 
 There are a lot more page that I've done but those pages have no interesting design idea. You can explore them.
 
-# Credit
+
+
+*************************************************************
+# File Added
+- Located in dev_src/public/theme/default/css/ui/orm
+  - Bootstrap, both CSS and JS
+  - jquery
+  - animate.css
+  - font-awesome
+  - dataTables
+  - All SB-admin Template
+
+# File Modified
+- Header of each view, import all files above.
+- All views, add content into <div class="card"></div>
+
+
+# Credit and Mlre Information
 Without these websites, my life is a disaster.
 - Bootstrap4  >> https://getbootstrap.com/
 - SB Admin Template >> https://startbootstrap.com/template-overviews/sb-admin/
@@ -47,7 +64,3 @@ Without these websites, my life is a disaster.
 - Icon >> https://fontawesome.com/icons?d=gallery
 - Date time picker from bootstrap >> https://bootstrap-datepicker.readthedocs.io/en/latest/
 Look much better then the old one. :D
-
-
-Last but not least...
-https://jiradawi.github.io/sarmsui/navbar
