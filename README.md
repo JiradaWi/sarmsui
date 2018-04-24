@@ -39,7 +39,6 @@ Click >> https://jiradawi.github.io/sarmsui/
 There are a lot more page that I've done but those pages have no interesting design idea. You can explore them.
 
 
-
 *************************************************************
 # File Added
 - Located in dev_src/public/theme/default/css/ui/orm
@@ -55,7 +54,7 @@ There are a lot more page that I've done but those pages have no interesting des
 - All views, add content into <div class="card"></div>
 
 
-# Credit and Mlre Information
+# Credit and More Information
 Without these websites, my life is a disaster.
 - Bootstrap4  >> https://getbootstrap.com/
 - SB Admin Template >> https://startbootstrap.com/template-overviews/sb-admin/
@@ -63,4 +62,5 @@ Without these websites, my life is a disaster.
 - Animate.css >> https://daneden.github.io/animate.css/
 - Icon >> https://fontawesome.com/icons?d=gallery
 - Date time picker from bootstrap >> https://bootstrap-datepicker.readthedocs.io/en/latest/
-Look much better then the old one. :D
+Look much better then the old one.
+- Winter is Coming! Not necessary but... >> https://codepen.io/neave/pen/JqwHt
