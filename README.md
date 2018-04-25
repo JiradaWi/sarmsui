@@ -40,7 +40,8 @@ There are a lot more page that I've done but those pages have no interesting des
 
 
 *************************************************************
-# File Added
+# Modification
+## File Added
 - Located in dev_src/public/theme/default/css/ui/orm
   - Bootstrap, both CSS and JS
   - jquery
@@ -49,11 +50,11 @@ There are a lot more page that I've done but those pages have no interesting des
   - dataTables
   - All SB-admin Template
 
-# File Modified
+## File Modified
 - Header of each view, import all files above.
-- All views, add content into <div class="card"></div>
 
 
+*************************************************************
 # Credit and More Information
 Without these websites, my life is a disaster.
 - Bootstrap4  >> https://getbootstrap.com/
@@ -62,5 +63,3 @@ Without these websites, my life is a disaster.
 - Animate.css >> https://daneden.github.io/animate.css/
 - Icon >> https://fontawesome.com/icons?d=gallery
 - Date time picker from bootstrap >> https://bootstrap-datepicker.readthedocs.io/en/latest/
-Look much better then the old one.
-- Winter is Coming! Not necessary but... >> https://codepen.io/neave/pen/JqwHt
