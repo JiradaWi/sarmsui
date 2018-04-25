@@ -42,7 +42,7 @@ There are a lot more page that I've done but those pages have no interesting des
 *************************************************************
 # Modification
 ## File Added
-- Located in dev_src/public/theme/default/css/ui/orm
+- Located in folder css, js and vendor.
   - Bootstrap, both CSS and JS
   - jquery
   - animate.css
@@ -51,7 +51,14 @@ There are a lot more page that I've done but those pages have no interesting des
   - All SB-admin Template
 
 ## File Modified
-- Header of each view, import all files above.
+-  dev_src/app/template/theme/default/common/navigation.html
+  - Change navbar
+- dev_src/app/template/theme/default/common/search.html
+  - Modify search
+- dev_src/app/template/theme/default/page/hardware/list_detail.html (and other page with tables)
+ - Change table style
+
+
 
 
 *************************************************************
