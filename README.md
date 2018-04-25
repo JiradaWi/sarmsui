@@ -26,7 +26,7 @@ Click >> https://jiradawi.github.io/sarmsui/
 ### Hardware edit with warning: hardwareeditinvalid.html >> https://jiradawi.github.io/sarmsui/hardwareeditinvalid.html
 - Click submit at hardwareedit page to visit page.
 - Add red color and description at input box. Showing red warning at the top.
-- If everything are OK, click submit to show hardwar =e edit result as a modal.
+- If everything are OK, click submit to show hardware edit result as a modal.
 
 ## Software page: softwaredaicho.html >> https://jiradawi.github.io/sarmsui/softwaredaicho.html and
 ## License page: licensedaicho.html >> https://jiradawi.github.io/sarmsui/licensedaicho.html
@@ -34,10 +34,7 @@ Click >> https://jiradawi.github.io/sarmsui/
 - Register software page is available but nothing change from hardware edit page. If you want to see... >> https://jiradawi.github.io/sarmsui/registersoftware.html
 
 ## Import page: import.html >> https://jiradawi.github.io/sarmsui/import.html
-- Make a example file a little bigger. At first, I though it was an error warning. T T
-
-There are a lot more page that I've done but those pages have no interesting design idea. You can explore them.
-
+- Make a example file a little bigger. At first, I though it was an error or some kind of warning. T T
 
 *************************************************************
 # Modification
