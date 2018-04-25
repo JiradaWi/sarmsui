@@ -56,7 +56,7 @@ Click >> https://jiradawi.github.io/sarmsui/
  - Change table style
 
 
-
+### With language limitation, Japanese character may not work properly in Datatables. 
 
 *************************************************************
 # Credit and More Information
